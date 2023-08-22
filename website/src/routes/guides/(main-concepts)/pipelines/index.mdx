@@ -75,7 +75,7 @@ const DateSchema = date([minValue(new Date())]);
 
 ### Custom validation
 
-For custom validations <Link href="/api/custom">`custom`</Link> or <Link href="/api/customAsync">`customAsync`</Link> can be used. If the function passed as the first argument returns a falsy value, an error is thrown. Otherwise the input is considered valid.
+For custom validations, <Link href="/api/custom">`custom`</Link> or <Link href="/api/customAsync">`customAsync`</Link> can be used. If the function passed as the first argument returns a falsy value, an error is thrown. Otherwise the input is considered valid.
 
 ```ts
 import { customAsync, stringAsync } from 'valibot'; // 0.45 kB
